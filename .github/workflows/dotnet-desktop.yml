@@ -13,6 +13,7 @@ jobs:
 
     env:
       Solution_Name: 'VS2022Cleaner.sln' # Nombre de tu solución
+      Wap_Project_Directory: 'VS2022Cleaner.Package'
 
     steps:
     - name: Checkout
