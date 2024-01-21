@@ -1,0 +1,6 @@
+C:\Users\adolf\RiderProjects\VS2022Cleaner\VS2022Cleaner\bin\Debug\VS2022Cleaner.exe
+C:\Users\adolf\RiderProjects\VS2022Cleaner\VS2022Cleaner\bin\Debug\VS2022Cleaner.pdb
+C:\Users\adolf\RiderProjects\VS2022Cleaner\VS2022Cleaner\obj\Debug\VS2022Cleaner.csproj.AssemblyReference.cache
+C:\Users\adolf\RiderProjects\VS2022Cleaner\VS2022Cleaner\obj\Debug\VS2022Cleaner.csproj.CoreCompileInputs.cache
+C:\Users\adolf\RiderProjects\VS2022Cleaner\VS2022Cleaner\obj\Debug\VS2022Cleaner.exe
+C:\Users\adolf\RiderProjects\VS2022Cleaner\VS2022Cleaner\obj\Debug\VS2022Cleaner.pdb
