@@ -13,7 +13,6 @@ jobs:
 
     env:
       Solution_Name: 'VS2022Cleaner.sln' # Nombre de tu solución
-      Wap_Project_Directory: 'VS2022Cleaner.Package'
 
     steps:
     - name: Checkout
@@ -31,12 +30,9 @@ jobs:
     - name: Build the solution
       run: msbuild ${{ env.Solution_Name }} /p:Configuration=Release /p:Platform="Any CPU"
 
-    # Aquí puedes agregar pasos adicionales para pruebas, firma, empaquetado, etc.
-
     # Subir artefactos de construcción (ejecutables, DLLs, etc.)
     - name: Upload build artifacts
       uses: actions/upload-artifact@v3
       with:
         name: Build Artifacts
-        path: ${{ env.Wap_Project_Directory }}\AppPackages
-
+        path: VS2022Cleaner/bin/Release/ # Asegúrate de que esta ruta sea correcta
